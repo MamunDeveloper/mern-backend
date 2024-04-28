@@ -9,10 +9,10 @@
       "methods": ["GET,HEAD,PUT,PATCH,POST,DELETE"]
     }
   ],
-  "REWRITES": [
+  "rewrites": [
     {
-      "SOURCE": "/(.*)",
-      "DESTINATION": "/"
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
