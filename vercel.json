@@ -8,5 +8,11 @@
       "dest": "server.js",
       "methods": ["GET,HEAD,PUT,PATCH,POST,DELETE"]
     }
+  ],
+  "REWRITES": [
+    {
+      "SOURCE": "/(.*)",
+      "DESTINATION": "/"
+    }
   ]
 }
