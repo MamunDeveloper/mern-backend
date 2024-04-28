@@ -12,7 +12,7 @@ const corseOptions = {
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credential: true,
 };
-
+app.options("", cors(corseOptions));
 app.use(cors(corseOptions));
 app.use(express.json());
 
