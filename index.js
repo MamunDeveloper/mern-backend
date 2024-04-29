@@ -25,3 +25,7 @@ connectDb().then(() => {
     console.log(`App is running at port ${PORT}`);
   });
 });
+
+app.get("/", (req, res) => {
+  res.status(200).json({ msg: "Welcome to the backend server" });
+});
